@@ -3,7 +3,7 @@ name: Release Tag
 on:
   pull_request:
     types: [closed]
-    branches: [main]          # 머지 대상 브랜치 지정하기
+    branches: [master]          # 머지 대상 브랜치 지정하기
 
 jobs:
   release:
